@@ -1,0 +1,46 @@
+.field {
+    width: 100%;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    position: relative;
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgba(0,154,255,0.05);
+    }
+
+    &.edit {
+        border-top: 1px dashed #49a9ee;
+        border-bottom: 1px dashed #49a9ee;
+        background-color: rgba(0,154,255,0.05);
+    }
+
+    .title {
+        color: #000;
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: 600;
+    }
+
+    [data-role="text"] {
+        width: 90%;
+    }
+
+    .actions {
+        position: absolute;
+        right: 10px;
+        bottom: -10px;
+        line-height: 18px;
+        text-align: center;
+        border: 1px solid #009AFF;
+        color: #009AFF;
+        font-size: 18px;
+        background: #fff;
+
+        &:hover {
+            background: #009AFF;
+            color: #fff;
+        }
+    }
+}

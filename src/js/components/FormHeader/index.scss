@@ -1,0 +1,14 @@
+.form-header {
+    width: 100%;
+    position: relative;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    &:hover {
+        border: 1px dashed #4DB8FF;
+    }
+
+    .form-name {
+        margin-bottom: 10px;
+    }
+}

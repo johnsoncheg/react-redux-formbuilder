@@ -1,0 +1,11 @@
+// 覆盖antd原始样式
+:global {
+    .ant-menu-inline {
+        border-right: none;
+    }
+
+    .ant-menu-vertical {
+        border-right: none;
+    }
+}
+
